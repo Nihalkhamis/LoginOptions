@@ -8,10 +8,48 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="175dp"
+       android:layout_height="175dp"
+       android:id="@+id/profile_pic"
+       android:layout_gravity="center_horizontal"
+       />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/name"
+       android:gravity="center"
+       android:textSize="20sp"
+       android:layout_marginTop="20dp"
+       android:textStyle="bold"
+       />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/emailaddress"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:layout_marginTop="10dp"
+       />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/userid"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:layout_marginTop="10dp"
+       />
+
+
    <com.facebook.login.widget.LoginButton
          android:id="@+id/loginbutton"
          android:layout_width="wrap_content"
        android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
        android:layout_gravity="center_horizontal"
        />
 
